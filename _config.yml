@@ -1,3 +1,18 @@
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
-title: "" # the name of your site, e.g. ACME Corp.
+title: "Jekyll Tailwindcss Starter" # the name of your site, e.g. ACME Corp.
+
+# # markdown
+# markdown: kramdown
+# kramdown:
+#   syntax_highlighter_opts:
+#     disable: true
+
+# paginator
+plugins:
+  - jekyll-paginate
+paginate: 2
+paginate_path: '/page:num'
+
+# other configs
+exclude: ["CNAME", "README.md"]
