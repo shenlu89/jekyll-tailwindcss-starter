@@ -3,44 +3,46 @@ layout: default
 title: "Jekyll Tailwindcss Starter"
 ---
 
-<p class="font-bold">
-  You're ready to go! Start developing your Jekyll website.
-</p>
-{% for post in paginator.posts %}
-<article class="flex flex-col w-full border-b border-gray-200 py-6">
-  <a
-    class="text-lg font-semibold text-blue-500 hover:text-blue-700"
-    href="{{post.url}}"
-    title="{{ post.title }}"
-  >
-    {{ post.title }}
-  </a>
-  <p class="text-sm mt-2 font-medium text-gray-900">{{ post.subtitle }}</p>
-  <time class="text-sm text-gray-500 mt-2">
-    {{post.date | date: '%b %d, %Y'}}
-  </time>
-</article>
-{% endfor %}
+<article class="w-full max-w-none">
+  <p class="font-bold">
+    You're ready to go! Start developing your Jekyll website.
+  </p>
+  {% for post in paginator.posts %}
+  <article class="flex flex-col w-full border-b border-gray-200 py-6">
+    <a
+      class="text-lg font-semibold text-blue-500 hover:text-blue-700"
+      href="{{post.url}}"
+      title="{{ post.title }}"
+    >
+      {{ post.title }}
+    </a>
+    <p class="text-sm mt-2 font-medium text-gray-900">{{ post.subtitle }}</p>
+    <time class="text-sm text-gray-500 mt-2">
+      {{post.date | date: '%b %d, %Y'}}
+    </time>
+  </article>
+  {% endfor %}
 
-<div id="post-pagination" class="paginator">
-  {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-  <a href="/">&lt;Prev</a>
-  {% else %}
-  <a href="/page{{paginator.previous_page}}">&lt;Prev</a>
-  {% endif %} {% else %}
-  <span class="previous disabled">&lt;Prev</span>
-  {% endif %} {% if paginator.page == 1 %}
-  <span class="current-page">1</span>
-  {% else %}
-  <a href="/">1</a>
-  {% endif %} {% for count in (2..paginator.total_pages) %} {% if count ==
-  paginator.page %}
-  <span class="current-page">{{count}}</span>
-  {% else %}
-  <a href="/page{{count}}">{{count}}</a>
-  {% endif %} {% endfor %} {% if paginator.next_page %}
-  <a class="next" href="/page{{paginator.next_page}}">Next&gt;</a>
-  {% else %}
-  <span class="next disabled">Next&gt;</span>
-  {% endif %} ( Total {{ paginator.total_posts }} Posts )
-</div>
+  <div id="post-pagination" class="paginator">
+    {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+    <a href="/">&lt;Prev</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}">&lt;Prev</a>
+    {% endif %} {% else %}
+    <span class="previous disabled">&lt;Prev</span>
+    {% endif %} {% if paginator.page == 1 %}
+    <span class="current-page">1</span>
+    {% else %}
+    <a href="/">1</a>
+    {% endif %} {% for count in (2..paginator.total_pages) %} {% if count ==
+    paginator.page %}
+    <span class="current-page">{{count}}</span>
+    {% else %}
+    <a href="/page{{count}}">{{count}}</a>
+    {% endif %} {% endfor %} {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">Next&gt;</a>
+    {% else %}
+    <span class="next disabled">Next&gt;</span>
+    {% endif %} ( Total {{ paginator.total_posts }} Posts )
+  </div>
+</article>
