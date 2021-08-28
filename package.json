@@ -7,14 +7,16 @@
   "email": "shenlu89 <shenlu89dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "jekyll:dev": "bundle exec jekyll serve --incremental --watch",
-    "jekyll:build": "JEKYLL_ENV=production bundle exec jekyll build",
-    "css:dev": "npx tailwindcss -o assets/css/main.css --watch",
-    "css:build": "NODE_ENV=production npx tailwindcss -o assets/css/main.css --minify"
+    "jekyll:serve": "bundle exec jekyll serve --incremental --watch",
+    "jekyll:build": "bundle exec jekyll build",
+    "css:build": "npx tailwindcss -i ./assets/css/index.css -o ./assets/css/main.css --minify"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.2",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1"
   }
 }
