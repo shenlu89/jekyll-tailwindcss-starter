@@ -1,11 +1,12 @@
 ---
 layout: default
 title: "Jekyll Tailwindcss Starter"
+subtitle: "You're ready to go! Start developing your Jekyll website."
 ---
 
 <article class="w-full max-w-none py-8">
   <h2>
-    You're ready to go! Start developing your Jekyll website.
+    {{ page.subtitle }}
   </h2>
   {% for post in paginator.posts %}
   <article class="flex flex-col w-full border-b border-gray-200 py-6">
