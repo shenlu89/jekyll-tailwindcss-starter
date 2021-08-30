@@ -19,4 +19,5 @@
         }
       });
   </script>
+  {% seo %}
 </head>
