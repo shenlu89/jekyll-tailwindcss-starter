@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Cantarell', 'sans-serif']
+      },
       minWidth: {
         '1': '0.25rem',
         '2': '0.5rem',

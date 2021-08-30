@@ -4,12 +4,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="shortcut icon" href="/assets/icon/logo.svg">
   <title>{{ site.title }}</title>
-  <link rel="preload" href="/assets/fonts/cantarell-extrabold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="/assets/fonts/cantarell-bold-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="/assets/fonts/cantarell-regular-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="/assets/fonts/cantarell-thin-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="preload" href="/assets/fonts/cantarell-light-webfont.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
-  <link rel="stylesheet" href="/assets/fonts/stylesheet.css"/>
+  <link rel="preload" href="/assets/css/fonts/cantarell-extrabold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+  <link rel="preload" href="/assets/css/fonts/cantarell-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+  <link rel="preload" href="/assets/css/fonts/cantarell-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+  <link rel="preload" href="/assets/css/fonts/cantarell-thin.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
+  <link rel="preload" href="/assets/css/fonts/cantarell-light.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
   <link rel="stylesheet" href="/assets/css/main.css" />
   <link rel="stylesheet" async href="/assets/css/syntax.css" />
   <script type="text/javascript" id="MathJax-script" async
