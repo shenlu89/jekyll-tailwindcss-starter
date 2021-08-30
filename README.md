@@ -15,9 +15,10 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 
 ## Philosophy
 
-1. As simple as possible, as comprehensive as possible.
-2. Only support modern browsers
-3. Utility-first and style flexible
+1. Styling as simple as possible
+2. Features as many as possible
+3. Support modern browsers only
+4. Easy to develop/refactor based on it
 
 ## Prerequisite
 
@@ -27,15 +28,15 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 ## Installation
 
 ```sh
-// Pull down Jekyll Tailwindcss Starter
+# Pull down Jekyll Tailwindcss Starter
 git clone https://github.com/shenlu89/jekyll-tailwindcss-starter.git
-// Get into the folder
+# Get into the folder
 cd jekyll-tailwindcss-starter
-// Install node dependencies
+# Install node dependencies
 yarn
-// Generate main.css via tailwindcss
+# Generate main.css via tailwindcss
 yarn css:build
-// Preview the website
+# Preview the website
 yarn jekyll:serve
 ```
 
