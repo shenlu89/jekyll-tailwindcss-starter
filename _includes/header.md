@@ -6,10 +6,10 @@
     <a
       href="/"
       title="{{site.description}}"
-      class="flex mt-2 sm:mt-0 space-x-2 items-center self-center"
+      class="flex mt-2 sm:mt-0 space-x-2 items-center self-center no-underline hover:no-underline"
     >
       <img src="/assets/icon/logo.svg" class="w-9, h-9">
-      <h1 class="link-pill text-gray-900 text-2xl no-underline font-extrabold">{{site.title}}</h1>
+      <h1 class="link-pill text-gray-900 text-2xl font-extrabold">{{site.title}}</h1>
     </a>
     <ul class="flex mt-8 sm:mt-0 space-x-4 items-center self-center">
       {% for item in site.data.navigation %}

@@ -15,27 +15,34 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 - Support **Pagination** powered by `jekyll-paginate`
 - Support **Google Analytics**
 - Support **Markdown** and via `kramdown` (rouge)
-- Support **Syntax Highlighting** with [Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- Support **Syntax Highlighting** via adding base styles
 - Support **Comments System** via [Disqus](https://disqus.com/)
 - Support **Latex** syntax via [Mathjax](https://www.mathjax.org/)
 
+### Philosophy
+
+1. Styling as simple as possible
+2. Features as many as possible
+3. Support modern browsers only
+4. Easy to develop/refactor based on it
+
 ### Prerequisite
 
-- [Node](https://nodejs.org/en/) >= 12.x.x
-- [Jekyll](https://jekyllrb.com/) >= 4.x.x
+- [Node](https://nodejs.org/en/) >= 12
+- [Jekyll](https://jekyllrb.com/) >= 4
 
 ### Installation
 
 ```sh
-// Pull down Jekyll Tailwindcss Starter
+# Pull down Jekyll Tailwindcss Starter
 git clone https://github.com/shenlu89/jekyll-tailwindcss-starter.git
-// Get into the folder
+# Get into the folder
 cd jekyll-tailwindcss-starter
-// Install node dependencies
+# Install node dependencies
 yarn
-// Generate main.css via tailwindcss
+# Generate main.css via tailwindcss
 yarn css:build
-// Preview the website
+# Preview the website
 yarn jekyll:serve
 ```
 
@@ -43,6 +50,14 @@ yarn jekyll:serve
 
 The code of **Jekyll Tailwindcss Starter** is available at my github repo [jekyll-tailwindcss-starter](https://github.com/jekyll-tailwindcss-starter).
 
+### Contributing
+
+1. Fork it ( [http://github.com/shenlu89/jekyll-tailwindcss-starter/fork](http://github.com/shenlu89/jekyll-tailwindcss-starter/fork) )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 ### License
 
-MIT
+[MIT](https://github.com/shenlu89/jekyll-tailwindcss-starter/blob/main/LICENSE)

@@ -40,6 +40,14 @@ yarn css:build
 yarn jekyll:serve
 ```
 
+## Contributing
+
+1. Fork it ( [http://github.com/shenlu89/jekyll-tailwindcss-starter/fork](http://github.com/shenlu89/jekyll-tailwindcss-starter/fork) )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 ## License
 
 [MIT](https://github.com/shenlu89/jekyll-tailwindcss-starter/blob/main/LICENSE)

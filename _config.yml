@@ -10,7 +10,7 @@ highlighter: rouge
 # paginator
 plugins:
   - jekyll-paginate
-paginate: 3
+paginate: 2
 paginate_path: '/page:num'
 
 # other configs

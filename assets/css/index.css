@@ -8,3 +8,44 @@
     @apply px-4 py-2 bg-blue-600 text-white rounded;
   }
 } */
+
+@layer base {
+  @font-face {
+    font-family: Cantarell;
+    src: url("fonts/cantarell-regular.woff2") format("woff2");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: Cantarell;
+    src: url("fonts/cantarell-bold.woff2") format("woff2");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: Cantarell;
+    src: url("fonts/cantarell-thin.woff2") format("woff2");
+    font-weight: 100;
+  }
+  @font-face {
+    font-family: Cantarell;
+    src: url("fonts/cantarell-light.woff2") format("woff2");
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: Cantarell;
+    src: url("fonts/cantarell-extrabold.woff2") format("woff2");
+    font-weight: 800;
+  }
+
+  h2 {
+    @apply font-extrabold text-2xl;
+  }
+
+  a {
+    @apply text-blue-500 hover:text-blue-700 font-normal no-underline hover:underline;
+  }
+}
+
+body {
+  line-height: 1.15 !important;
+}
