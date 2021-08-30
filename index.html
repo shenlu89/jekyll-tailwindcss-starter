@@ -3,8 +3,8 @@ layout: default
 title: "Jekyll Tailwindcss Starter"
 ---
 
-<article class="w-full max-w-none">
-  <p class="font-bold">
+<article class="w-full max-w-none py-8">
+  <p class="font-extrabold text-2xl">
     You're ready to go! Start developing your Jekyll website.
   </p>
   {% for post in paginator.posts %}
@@ -21,28 +21,66 @@ title: "Jekyll Tailwindcss Starter"
       {{post.date | date: '%b %d, %Y'}}
     </time>
   </article>
-  {% endfor %}
 
-  <div id="post-pagination" class="paginator">
-    {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
-    <a href="/">&lt;Prev</a>
-    {% else %}
-    <a href="/page{{paginator.previous_page}}">&lt;Prev</a>
-    {% endif %} {% else %}
-    <span class="previous disabled">&lt;Prev</span>
-    {% endif %} {% if paginator.page == 1 %}
-    <span class="current-page">1</span>
-    {% else %}
-    <a href="/">1</a>
-    {% endif %} {% for count in (2..paginator.total_pages) %} {% if count ==
-    paginator.page %}
-    <span class="current-page">{{count}}</span>
-    {% else %}
-    <a href="/page{{count}}">{{count}}</a>
-    {% endif %} {% endfor %} {% if paginator.next_page %}
-    <a class="next" href="/page{{paginator.next_page}}">Next&gt;</a>
-    {% else %}
-    <span class="next disabled">Next&gt;</span>
-    {% endif %} ( Total {{ paginator.total_posts }} Posts )
+  {% endfor %} {% if paginator.total_posts %}
+  <div class="flex justify-between pt-8">
+    <div class="flex font-extrabold space-x-1">
+      <div>Total</div>
+      <a class="text-blue-500 inline-flex justify-center rounded-full"
+        >{{ paginator.total_posts }}</a
+      >
+      <div>Posts</div>
+    </div>
+    <div class="font-extrabold felx">
+      {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
+      <a
+        href="/"
+        class="cursor-pointer text-gray-900 hover:text-blue-700 no-underline hover:underline"
+        >Prev</a
+      >
+      {% else %}
+      <a
+        href="/page{{paginator.previous_page}}"
+        class="cursor-pointer text-gray-900 hover:text-blue-700 no-underline hover:underline"
+        >Prev</a
+      >
+      {% endif %} {% else %}
+      <a class="cursor-not-allowed text-gray-500"></a>
+      {% endif %} {% if paginator.page == 1 %}
+      <a
+        class="bg-blue-500 text-white  min-w-6 px-1 h-6 inline-flex justify-center rounded-full"
+        >1</a
+      >
+      {% else %}
+      <a
+        href="/"
+        class="min-w-6 px-1 h-6 inline-flex justify-center text-blue-500 hover:text-blue-700 no-underline hover:underline rounded-full"
+        >1</a
+      >
+      {% endif %} {% for count in (2..paginator.total_pages) %} {% if count ==
+      paginator.page %}
+      <a
+        class="bg-blue-500 text-white min-w-6 px-1 h-6 inline-flex justify-center rounded-full"
+        >{{count}}</a
+      >
+      {% else %}
+      <a
+        href="/page{{count}}"
+        class="min-w-6 px-1 h-6 inline-flex justify-center text-blue-500 hover:text-blue-700 no-underline hover:underline broder-blue-100 cursor-pointe rounded-full"
+        >{{count}}</a
+      >
+      {% endif %} {% endfor %} {% if paginator.next_page %}
+      <a
+        class="cursor-pointer text-gray-900 hover:text-blue-700 no-underline hover:underline"
+        href="/page{{paginator.next_page}}"
+        >Next</a
+      >
+      {% else %}
+      <a class="cursor-not-allowed text-gray-500"></a>
+      {% endif %}
+    </div>
   </div>
+  {% endif %}
 </article>
+
+1. add darkmode 2. add family font
