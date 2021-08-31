@@ -13,7 +13,10 @@ plugins:
   - jekyll-seo-tag
 
 paginate: 2
-paginate_path: '/page:num'
+paginate_path: "/page:num"
+
+# google analytics
+google_analytics_id: "Google Analytics ID"
 
 # other configs
 exclude: ["CNAME", "README.md"]
