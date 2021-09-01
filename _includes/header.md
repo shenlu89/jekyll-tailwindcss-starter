@@ -1,6 +1,6 @@
 <header>
   <nav
-    class="flex flex-col sm:flex-row justify-between pb-12 sm:pb-8 pt-8 sm:pt-8"
+    class="flex flex-col sm:flex-row justify-between sm:pb-8 pt-8 sm:pt-8"
     role="navigation"
   >
     <a

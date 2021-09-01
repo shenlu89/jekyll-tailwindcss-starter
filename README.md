@@ -5,7 +5,7 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 ## Features
 
 - Support [Tailwind CSS](https://tailwindcss.com/), including [PostCSS](https://postcss.org/), [PurgeCSS](https://purgecss.com/)
-- Compatiable with **Mordern Browsers** except **IE 11+**
+- Support Cross-platform and compatiable with **Mordern Browsers** except **IE 11+**
 - Support **Pagination** powered by `jekyll-paginate`
 - Support **Google Analytics**
 - Support **Markdown** and via `kramdown` (rouge)
@@ -20,7 +20,7 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 3. Support modern browsers only
 4. Easy to develop/refactor based on it
 
-## Prerequisite
+## Prerequisites
 
 - [Node](https://nodejs.org/en/) >= 12
 - [Jekyll](https://jekyllrb.com/) >= 4
