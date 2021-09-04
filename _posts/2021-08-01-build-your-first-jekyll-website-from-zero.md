@@ -23,7 +23,7 @@ gem install jekyll bundler
 
 ### Create a scaffold
 
-I use **Ubuntu** as my developing platform. To create a empty scaffold, I just run this command.
+I use **Ubuntu** as defualt platform to build my blog. So I need run this command to create a empty scaffold.
 
 ```sh
 ## Creates scaffolding but with empty files
@@ -61,5 +61,7 @@ bundle exec jekyll serve
 ```
 
 After serving it, you can browse it to <http://localhost:4000> locally.
+
+![](/assets/images/1_wvlLOWVxZ6sh7QuGjufxhA.png)
 
 It's very simple. That's all.
