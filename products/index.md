@@ -1,7 +1,8 @@
 ---
 title: Project
-layout: prose
+layout: page
 permalink: /project.html
+markdown: prose
 ---
 
 ### Jekyll Tailwindcss Starter

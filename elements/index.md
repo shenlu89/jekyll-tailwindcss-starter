@@ -1,7 +1,8 @@
 ---
 title: Elements
-layout: prose
+layout: page
 permalink: /elements.html
+markdown: prose
 ---
 
 The formatting elements specified by Markdown come in two basic types: there are block elements and inline elements.
