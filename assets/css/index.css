@@ -3,12 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @layer components {
-  .btn {
-    @apply px-4 py-2 bg-blue-600 text-white rounded;
-  }
-} */
-
 @layer base {
   @font-face {
     font-family: Cantarell;
@@ -44,8 +38,4 @@
   a {
     @apply text-blue-500 hover:text-blue-700 font-normal no-underline hover:underline;
   }
-}
-
-body {
-  line-height: 1.15 !important;
 }
