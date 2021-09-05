@@ -2,6 +2,8 @@
 
 A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 
+![](assets/images/showcase.png)
+
 ## Features
 
 - Integrated with [Tailwind CSS](https://tailwindcss.com/) v2.2+, including [PostCSS](https://postcss.org/), [PurgeCSS](https://purgecss.com/)
