@@ -11,13 +11,6 @@
   <link rel="preload" href="/assets/css/fonts/cantarell-light.woff2" as="font" type="font/woff2" crossorigin="anonymous"/>
   <link rel="stylesheet" href="/assets/css/main.css" />
   <link rel="stylesheet" async href="/assets/css/syntax.css" />
-  <script type="text/javascript" id="MathJax-script" async
-  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']]
-        }
-      });
-  </script>
+  {% include latex.md %}
   {% seo %}
 </head>

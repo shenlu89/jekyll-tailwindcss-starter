@@ -11,14 +11,13 @@ A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 
 ### Features
 
-- Support [Tailwind CSS](https://tailwindcss.com/), including [PostCSS](https://postcss.org/), [PurgeCSS](https://purgecss.com/)
-- Support Cross-platform and compatiable with **Mordern Browsers** except **IE 11+**
-- Support **Pagination** powered by `jekyll-paginate`
+- Integrated with [Tailwind CSS](https://tailwindcss.com/) v2.2+, including [PostCSS](https://postcss.org/), [PurgeCSS](https://purgecss.com/)
+- Compatiable with [GitHub Pages](https://pages.github.com/) and **Mordern Browsers** except **IE 11+**
+- **Syntax Highlighting** with [Typography](https://github.com/tailwindlabs/tailwindcss-typography)
+- Commenting support powered by [Disqus](https://disqus.com/)
+- Optimized for search engines.
 - Support **Google Analytics**
-- Support **Markdown** and via `kramdown` (rouge)
-- Support **Syntax Highlighting** via adding base styles
-- Support **Comments System** via [Disqus](https://disqus.com/)
-- Support **Latex** syntax via [Mathjax](https://www.mathjax.org/)
+- **Latex** syntax through [Mathjax](https://www.mathjax.org/)
 
 ### Philosophy
 
