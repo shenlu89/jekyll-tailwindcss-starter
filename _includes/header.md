@@ -15,7 +15,7 @@
       {% for item in site.data.navigation %}
       <li>
         <a
-          href="/{{item.name}}"
+          href="{{item.url}}"
           title="{{item.title}}"
           class="capitalize py-1 text-blue-500 hover:text-blue-700 no-underline hover:underline"
           >{{item.name}}</a
