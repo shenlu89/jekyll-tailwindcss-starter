@@ -32,7 +32,7 @@
   }
 
   h2 {
-    @apply font-extrabold text-2xl;
+    @apply font-extrabold text-2xl pb-4;
   }
 
   a {

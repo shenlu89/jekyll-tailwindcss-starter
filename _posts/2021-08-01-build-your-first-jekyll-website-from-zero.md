@@ -95,6 +95,6 @@ bundle exec jekyll serve
 
 After starting successfully, you can browse it to <http://localhost:4000> locally.
 
-![]({{ site.github.url }}assets/images/your_website_name.png)
+![]({{ site.github.url }}/assets/images/your_website_name.png)
 
 It's very simple. That's all.
