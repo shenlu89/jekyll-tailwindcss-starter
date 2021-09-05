@@ -20,6 +20,6 @@ layout: default
 
     {% endif %}
     <div class="mt-4 text-justify">{{ content }}</div>
-    {% include disqus.md %}
   </div>
 </article>
+{% include disqus.md %}
