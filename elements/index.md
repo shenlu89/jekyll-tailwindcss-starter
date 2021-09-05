@@ -97,5 +97,5 @@ alert(message);
 |\*\*Strong\*\* emphasis        |**Strong** emphasis          |
 |`[URL](https://shenlu89.github.io/)`|[URL](https://shenlu89.github.io)                      |
 |`Autolinks <https://shenlu89.github.io>`|Autolinks <https://shenlu89.github.io>|
-|`![logo](/assets/icon/logo.svg)` | ![logo](/assets/icon/logo.svg) |
+|`![logo]({{ site.github.url }}/assets/icon/logo.svg)` | ![logo]({{ site.github.url }}/assets/icon/logo.svg) |
 |`$$y=x_1+x_2$$`                  |$$y=x_1+x_2$$             |
