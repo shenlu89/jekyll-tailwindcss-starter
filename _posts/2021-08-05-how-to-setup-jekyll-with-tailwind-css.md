@@ -85,7 +85,7 @@ npx tailwindcss -o ./assets/css/main.css
 
 Serve and browse it again.
 
-![](/assets/images/jekyll-tailwindcss-scaffold.png)
+![]({{ site.github.url }}/assets/images/jekyll-tailwindcss-scaffold.png)
 
 Now it works.
 
@@ -145,6 +145,13 @@ Finally, you can create your own npm scripts, `dev` and `build` scripts, in `pac
     "jekyll:dev": "bundle exec jekyll serve --incremental --watch",
     "css:build": "npx tailwind -o ./assets/css/main.css --minify",
   }
+```
+
+You can build CSS file and browse in <http://127.0.0.0:4000> if it could work well.
+
+```sh
+yarn css:build # generate tailwind-style css for production
+yarn jekyll:dev # gnerate site and preview it
 ```
 
 Now you can be free to use Tailwind in this Jekyll project.
