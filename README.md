@@ -1,5 +1,10 @@
 # Jekyll Tailwindcss Starter
 
+![](https://img.shields.io/github/issues/shenlu89/jekyll-tailwindcss-starter)
+![](https://img.shields.io/github/forks/shenlu89/jekyll-tailwindcss-starter)
+![](https://img.shields.io/github/stars/shenlu89/jekyll-tailwindcss-starter)
+![](https://img.shields.io/github/license/shenlu89/jekyll-tailwindcss-starter)
+
 A dead simple, comprehensive Jekyll boilerpalte styling with Tailwind CSS.
 
 ![](assets/images/showcase.png)
